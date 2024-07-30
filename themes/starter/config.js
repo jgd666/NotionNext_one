@@ -26,7 +26,7 @@ const CONFIG = {
   STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
   STARTER_NAV_BUTTON_1_URL: '/signin',
 
-  STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
+  STARTER_NAV_BUTTON_2_TEXT: '官方加盟热线 400-002-1234',
   STARTER_NAV_BUTTON_2_URL: '/signup',
 
   // 特性区块
