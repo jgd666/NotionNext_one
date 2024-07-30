@@ -64,7 +64,7 @@ export const NavBar = (props) => {
                     {/* 右侧功能 */}
                     <div className="flex items-center justify-end pr-16 lg:pr-0">
                         {/* 深色模式切换 */}
-                       // <DarkModeButton/>
+                         <div className="hidden"> <DarkModeButton/>  </div>
                         {/* 注册登录功能 */}
                         <div className="hidden sm:flex">
                             <a
