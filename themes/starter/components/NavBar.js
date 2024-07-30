@@ -75,7 +75,7 @@ export const NavBar = (props) => {
                             </a>
                             <a
                             href={siteConfig('STARTER_NAV_BUTTON_2_URL', null, CONFIG)}
-                            className={`signUpBtn ${buttonTextColor} rounded-md bg-[#E71926] text-[#000000] px-6 py-2 text-base font-medium duration-300 ease-in-out hover:bg-[#E71320] hover:text-[#404040]`}
+                            className={`signUpBtn ${buttonTextColor} rounded-md bg-[#E71926] text-[#000000] px-6 py-6 text-base font-medium duration-300 ease-in-out hover:bg-[#E71320] hover:text-[#404040]`}
                             >
                            {siteConfig('STARTER_NAV_BUTTON_2_TEXT', null, CONFIG)}
                             </a>
