@@ -41,7 +41,7 @@ const CONFIG = {
   STARTER_FEATURE_1_BUTTON_URL: '', // 特性1，https://github.com/tangly1024/NotionNext
 
   STARTER_FEATURE_2_TITLE_1: '仓储物流', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '强大的集中采购模式，大大降低加盟商采购成本，提供成熟的采购、品控、库存、冷链配送等365×24小时服务。', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '强大的集中采购模式，大大降低加盟商采购成本，提供365×24小时服务。', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:'', // 特性2
 
