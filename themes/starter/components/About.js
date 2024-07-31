@@ -11,7 +11,7 @@ export const About = () => {
        {/* <!-- ====== About Section Start --> */}
        <section
       id="about"
-      className="bg-[#E71926] pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
+      className="bg-[#FED9DF] pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
     >
       <div className="container">
         <div className="wow fadeInUp" data-wow-delay=".2s">
@@ -21,18 +21,18 @@ export const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2
-                  className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]"
+                  className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-[40px] sm:leading-[1.2]"
                 >
                   {siteConfig('STARTER_ABOUT_TITLE', null, CONFIG)}
                 </h2>
-                <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6"
+                <p className="mb-10 text-base leading-relaxed text-white dark:text-dark-6"
                     dangerouslySetInnerHTML={
                     { __html: siteConfig('STARTER_ABOUT_TEXT', null, CONFIG) }
                 }></p>
 
                 <a
                   href={siteConfig('STARTER_ABOUT_BUTTON_URL', null, CONFIG)}
-                  className="inline-flex items-center justify-center rounded-md border border-primary bg-primary px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark"
+                  className="inline-flex items-center justify-center rounded-md border border-[#E71926] bg-[#E71926] px-7 py-3 text-center text-base font-medium text-white hover:border-[#AD131D] hover:bg-[#AD131D] hover:scale-110"
                 >
                   {siteConfig('STARTER_ABOUT_BUTTON_TEXT', null, CONFIG)}
                 </a>
