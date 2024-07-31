@@ -62,7 +62,7 @@ export const Hero = () => {
           </div>
 
           {/* 产品预览图片 */}
-          { siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG) && <div className="w-full px-4">
+          { siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG) && <div className="w-full px-4 mt-2">
             <div
               className="wow fadeInUp relative z-10 mx-auto max-w-[2000px]"
               data-wow-delay=".25s"
