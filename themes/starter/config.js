@@ -287,54 +287,50 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  STARTER_FOOTER_SLOGAN: '每天现卤，绝不过夜。',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
       TITLE: '关于我们',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: '品牌介绍', URL: '' },
+        { TITLE: '公司荣誉', URL: '' },
         {
-          TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
+          TITLE: '发展里程碑',
+          URL: ''
         },
         {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
+          TITLE: '社会责任',
+          URL: ''
         }
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: '招商加盟',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+          TITLE: '支持体系',
+          URL: ''
         },
         {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          TITLE: '加盟优势',
+          URL: ''
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: '加盟流程', URL: '' }
       ]
     },
     {
-      TITLE: 'Notion写作',
+      TITLE: '联系我们',
       LINK_GROUP: [
         {
-          TITLE: 'Notion开始写作',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
+          TITLE: '联系方式',
+          URL: ''
         },
         {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
+          TITLE: '采购招标',
+          URL: ''
         },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
       ]
     }
   ],
