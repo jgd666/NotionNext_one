@@ -13,9 +13,9 @@ export const Blog = ({ posts }) => {
     <>
       {/* <!-- ====== Blog Section Start --> */}
       <section className='bg-[#E71926] pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]'>
-        <div className='container mx-auto'>
+        <div className='container mx-auto mt-0'>
           {/* 区块标题文字 */}
-          <div className='-mx-4 flex flex-wrap justify-center mt-0'>
+          <div className='-mx-4 flex flex-wrap justify-center'>
             <div className='w-full px-4'>
               <div className='mx-auto mb-[60px] max-w-[485px] text-center'>
                 <span className='mb-2 block text-lg font-semibold text-white'>
