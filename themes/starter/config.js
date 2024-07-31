@@ -173,54 +173,53 @@ const CONFIG = {
 
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
+  STARTER_FAQ_TITLE: '',
   STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  STARTER_FAQ_TEXT_2: '我们收集了常见的加盟商疑问',
 
-  STARTER_FAQ_1_QUESTION: 'NotionNext有帮助文档吗？',
+  STARTER_FAQ_1_QUESTION: '卤力鸭的加盟流程是怎样的？',
   STARTER_FAQ_1_ANSWER:
-    'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+    '加盟流程包括咨询、申请、审核、签约、选址、装修、培训、试营业和正式开业。每一步都有专业团队全程指导。',
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
+  STARTER_FAQ_2_QUESTION: '卤力鸭提供哪些支持和培训？',
   STARTER_FAQ_2_ANSWER:
-    '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
+    '提供全面支持，包括选址评估、店铺设计、员工培训、开业指导和营销策划，确保加盟商顺利开业并持续运营。',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？',
+  STARTER_FAQ_3_QUESTION: '加盟卤力鸭的利润空间如何？',
   STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
+    '卤力鸭品牌利润空间大，年均盈利率可达30%-40%。具体利润视店铺位置、经营状况和管理水平而定。',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？',
+  STARTER_FAQ_4_QUESTION: '卤力鸭的供应链和原材料保障如何？',
   STARTER_FAQ_4_ANSWER:
-    '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
+    '总部统一配送优质原材料，确保口味一致。与多家供应商合作，保障食材新鲜和高品质，定期推出新品。',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
+  STARTER_TEAM_TITLE: '',
+  STARTER_TEAM_TEXT_1: '我们的领导团队',
   STARTER_TEAM_TEXT_2:
-    'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
+    '卤力鸭由众多餐饮行业大佬与互联网从业者共同合作创立，经验丰富，且踏实可靠，整体实力强大。',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
     {
-      STARTER_TEAM_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa06c61bb-980e-4180-bc18-c15f92c78bb4%2Ftangly1024.jpg?table=collection&id=8e7acf17-de09-4fa1-abde-b5b80ad4a813&t=8e7acf17-de09-4fa1-abde-b5b80ad4a813&width=100&cache=v2',
-      STARTER_TEAM_ITEM_NICKNAME: 'Tangly',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
+      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/lj.png',
+      STARTER_TEAM_ITEM_NICKNAME: '雷军',
+      STARTER_TEAM_ITEM_DESCRIPTION: 'CEO'
     },
     {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
+      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/lqd.png',
+      STARTER_TEAM_ITEM_NICKNAME: '刘强东',
       STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
     },
     {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
+      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/tim.png',
+      STARTER_TEAM_ITEM_NICKNAME: 'TIM',
       STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
     },
     {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
+      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/sgd.png',
+      STARTER_TEAM_ITEM_NICKNAME: '隋国栋',
       STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
     }
   ],
