@@ -108,7 +108,7 @@ const CONFIG = {
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
-  STARTER_TESTIMONIALS_TITLE: '用户反馈',
+  STARTER_TESTIMONIALS_TITLE: '',
   STARTER_TESTIMONIALS_TEXT_1: '我们的顾客怎么说',
   STARTER_TESTIMONIALS_TEXT_2:
     '全国已有1200多家加盟门店，覆盖200余座城市，每年服务顾客超过10000万人次。',
