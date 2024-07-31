@@ -16,7 +16,7 @@ export const Footer = props => {
     <>
       {/* <!-- ====== Footer Section Start --> */}
       <footer
-        className='wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]'
+        className='wow fadeInUp relative z-10 bg-[#F7F1E8] pt-20 lg:pt-[100px]'
         data-wow-delay='.15s'>
         <div className='container'>
           <div className='-mx-4 flex flex-wrap'>
@@ -29,7 +29,7 @@ export const Footer = props => {
                   {siteConfig('STARTER_FOOTER_SLOGAN', null, CONFIG)}
                 </p>
                 <div className='-mx-3 flex items-center'>
-                  <div className='mx-3'>
+                  <div className='mx-3 hidden'>
                     <SocialButton />
                   </div>
                 </div>
@@ -65,7 +65,7 @@ export const Footer = props => {
             })}
 
             {/* 页脚右侧最新博文 */}
-            <div className='w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12'>
+            <div className='w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12 hidden'>
               <div className='mb-10 w-full'>
                 <h4 className='mb-9 text-lg font-semibold text-white'>
                   {siteConfig('STARTER_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
@@ -146,14 +146,7 @@ export const Footer = props => {
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
                 <div className='my-1 flex justify-center md:justify-end'>
                   <p className='text-base text-gray-7'>
-                    Designed and Developed by
-                    <a
-                      href='https://github.com/tangly1024/NotionNext'
-                      rel='nofollow noopner noreferrer'
-                      target='_blank'
-                      className='px-1 text-gray-1 hover:underline'>
-                      NotionNext {siteConfig('VERSION')}
-                    </a>
+                    鲁ICP备11007237号-1
                   </p>
                 </div>
               </div>
