@@ -50,7 +50,7 @@ export const Features = () => {
               </p>
               <a
                 href={siteConfig('STARTER_FEATURE_1_BUTTON_URL', null, CONFIG)}
-                className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                className="text-base font-medium text-dark hover:text-[#DC002D] dark:text-white dark:hover:text-primary"
               >
                 {siteConfig('STARTER_FEATURE_1_BUTTON_TEXT', null, CONFIG)}
               </a>
@@ -74,7 +74,7 @@ export const Features = () => {
               </p>
               <a
                 href={siteConfig('STARTER_FEATURE_2_BUTTON_URL', null, CONFIG)}
-                className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                className="text-base font-medium text-dark hover:text-[#DC002D] dark:text-white dark:hover:text-primary"
               >
                 {siteConfig('STARTER_FEATURE_2_BUTTON_TEXT', null, CONFIG)}
               </a>
@@ -98,7 +98,7 @@ export const Features = () => {
               </p>
               <a
                 href={siteConfig('STARTER_FEATURE_3_BUTTON_URL', null, CONFIG)}
-                className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                className="text-base font-medium text-dark hover:text-[#DC002D] dark:text-white dark:hover:text-primary"
               >
                 {siteConfig('STARTER_FEATURE_3_BUTTON_TEXT', null, CONFIG)}
               </a>
@@ -122,7 +122,7 @@ export const Features = () => {
               </p>
               <a
                 href={siteConfig('STARTER_FEATURE_4_BUTTON_URL', null, CONFIG)}
-                className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                className="text-base font-medium text-dark hover:text-[#DC002D] dark:text-white dark:hover:text-primary"
               >
                 {siteConfig('STARTER_FEATURE_3_BUTTON_TEXT', null, CONFIG)}
               </a>
