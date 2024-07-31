@@ -64,11 +64,11 @@ export const Hero = () => {
           {/* 产品预览图片 */}
           { siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG) && <div className="w-full px-4">
             <div
-              className="wow fadeInUp relative z-10 mx-auto max-w-[2000px] mt-2"
+              className="wow fadeInUp relative z-10 mx-auto max-w-[2000px]"
               data-wow-delay=".25s"
             >
 
-              <div className="mt-16">
+              <div className="mt-2">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG)}
