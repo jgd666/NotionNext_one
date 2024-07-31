@@ -42,7 +42,7 @@ export const Features = () => {
                 ></span>
                 <SVGGifts/>
               </div>
-              <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
+              <h4 className="mb-3 text-xl font-bold text-[#DC002D] dark:text-white">
                 {siteConfig('STARTER_FEATURE_1_TITLE_1', null, CONFIG)}
               </h4>
               <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
@@ -66,7 +66,7 @@ export const Features = () => {
                 ></span>
                 <SVGTemplate/>
               </div>
-              <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
+              <h4 className="mb-3 text-xl font-bold text-[#DC002D] dark:text-white">
               {siteConfig('STARTER_FEATURE_2_TITLE_1', null, CONFIG)}
               </h4>
               <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
@@ -90,7 +90,7 @@ export const Features = () => {
                 ></span>
                 <SVGDesign/>
               </div>
-              <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
+              <h4 className="mb-3 text-xl font-bold text-[#DC002D] dark:text-white">
                 {siteConfig('STARTER_FEATURE_3_TITLE_1', null, CONFIG)}
               </h4>
               <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
@@ -114,7 +114,7 @@ export const Features = () => {
                 ></span>
                 <SVGEssential/>
               </div>
-              <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
+              <h4 className="mb-3 text-xl font-bold text-[#DC002D] dark:text-white">
               {siteConfig('STARTER_FEATURE_4_TITLE_1', null, CONFIG)}
               </h4>
               <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
