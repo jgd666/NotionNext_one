@@ -95,10 +95,10 @@ const LayoutIndex = props => {
       {siteConfig('STARTER_TESTIMONIALS_ENABLE', null, CONFIG) && (
         <Testimonials />
       )}
-      {/* 常见问题 */}
-      {siteConfig('STARTER_FAQ_ENABLE', null, CONFIG) && <FAQ />}
       {/* 团队介绍 */}
       {siteConfig('STARTER_TEAM_ENABLE', null, CONFIG) && <Team />}
+      {/* 常见问题 */}
+      {siteConfig('STARTER_FAQ_ENABLE', null, CONFIG) && <FAQ />}
       {/* 博文列表 */}
       {siteConfig('STARTER_BLOG_ENABLE', null, CONFIG) && (
         <Blog posts={posts} />
