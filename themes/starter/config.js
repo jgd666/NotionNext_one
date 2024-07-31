@@ -57,16 +57,16 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_TITLE: '卤力鸭——现做卤味大王',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
+    '自2012年起，卤力鸭精选优质鸭肉和天然香料，开创了独特的秘制卤味，推动了卤味行业的品质升级，成为街头卤味连锁的引领者。 <br /> <br /> 日前全国加盟火热进行中，预计2030年覆盖全国560+地级市。',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_1: '200+',
+  STARTER_ABOUT_TIPS_2: '全国加盟店',
+  STARTER_ABOUT_TIPS_3: '正在营业中...',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
