@@ -32,7 +32,7 @@ export const About = () => {
 
                 <a
                   href={siteConfig('STARTER_ABOUT_BUTTON_URL', null, CONFIG)}
-                  className="inline-flex items-center justify-center rounded-md border border-[#E71926] bg-[#E71926] px-7 py-3 text-center text-base font-medium text-white hover:border-[#AD131D] hover:bg-[#AD131D] hover:scale-110"
+                  className="inline-flex items-center justify-center rounded-md border border-[#AD131D] bg-[#AD131D] px-7 py-3 text-center text-base font-medium text-white hover:border-[#AD131D] hover:bg-[#AD131D] hover:scale-110"
                 >
                   {siteConfig('STARTER_ABOUT_BUTTON_TEXT', null, CONFIG)}
                 </a>
@@ -66,7 +66,7 @@ export const About = () => {
                   </div>
 
                   <div
-                    className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8"
+                    className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-[#D0BE6D] px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8"
                   >
                     <div>
                       <span className="block text-5xl font-extrabold text-white">
