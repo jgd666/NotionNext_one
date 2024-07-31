@@ -256,34 +256,34 @@ const CONFIG = {
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
-      IMAGE: '/images/starter/brands/graygrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
-      URL: 'https://graygrids.com/',
+      IMAGE: '/images/starter/brands/dianhua.png',
+      IMAGE_WHITE: '/images/starter/brands/dianhua.png',
+      URL: '',
       TITLE: 'graygrids'
     },
     {
-      IMAGE: '/images/starter/brands/lineicons.svg',
-      IMAGE_WHITE: '/images/starter/brands/lineicons-white.svg',
-      URL: 'https://lineicons.com/',
+      IMAGE: '/images/starter/brands/erweima.png',
+      IMAGE_WHITE: '/images/starter/brands/erweima.png',
+      URL: '',
       TITLE: 'lineicons'
     },
     {
-      IMAGE: '/images/starter/brands/uideck.svg',
-      IMAGE_WHITE: '/images/starter/brands/uideck-white.svg',
-      URL: 'https://uideck.com/',
-      TITLE: 'uideck'
+      IMAGE: '',
+      IMAGE_WHITE: '',
+      URL: '',
+      TITLE: ''
     },
     {
-      IMAGE: '/images/starter/brands/ayroui.svg',
-      IMAGE_WHITE: '/images/starter/brands/ayroui-white.svg',
-      URL: 'https://ayroui.com/',
-      TITLE: 'ayroui'
+      IMAGE: '',
+      IMAGE_WHITE: '',
+      URL: '',
+      TITLE: ''
     },
     {
-      IMAGE: '/images/starter/brands/tailgrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/tailgrids-white.svg',
-      URL: '"https://tailgrids.com/',
-      TITLE: 'tailgrids'
+      IMAGE: '',
+      IMAGE_WHITE: '',
+      URL: '',
+      TITLE: ''
     }
   ],
 
