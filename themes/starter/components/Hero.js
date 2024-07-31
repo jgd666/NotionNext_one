@@ -68,7 +68,7 @@ export const Hero = () => {
               data-wow-delay=".25s"
             >
 
-              <div className="mt-2">
+              <div className="mt-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG)}
