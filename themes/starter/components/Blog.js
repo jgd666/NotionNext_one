@@ -12,7 +12,7 @@ export const Blog = ({ posts }) => {
   return (
     <>
       {/* <!-- ====== Blog Section Start --> */}
-      <section className='bg-[#E71926] pb-5 pt-10 dark:bg-dark lg:pb-20 lg:pt-[120px]'>
+      <section className='bg-[#E71926] pb-5 pt-10 dark:bg-dark lg:pb-10 lg:pt-[60px]'>
         <div className='container mx-auto'>
           {/* 区块标题文字 */}
           <div className='-mx-4 flex flex-wrap justify-center'>
