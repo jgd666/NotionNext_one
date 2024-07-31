@@ -9,7 +9,7 @@ export const Team = () => {
       {/* <!-- ====== Team Section Start --> */}
       <section
         id='team'
-        className='overflow-hidden bg-gray-1 pb-12 pt-20 dark:bg-dark-2 lg:pb-[90px] lg:pt-[120px]'>
+        className='overflow-hidden bg-[#E71926] pb-12 pt-20 dark:bg-dark-2 lg:pb-[90px] lg:pt-[120px]'>
         <div className='container mx-auto'>
           <div className='-mx-4 flex flex-wrap'>
             <div className='w-full px-4'>
@@ -17,14 +17,14 @@ export const Team = () => {
                 <span className='mb-2 block text-lg font-semibold text-primary'>
                   {siteConfig('STARTER_TEAM_TITLE', null, CONFIG)}
                 </span>
-                <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]'>
+                <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-white dark:text-white sm:text-4xl md:text-[40px]'>
                   {siteConfig('STARTER_TEAM_TEXT_1', null, CONFIG)}
                 </h2>
                 <p
                   dangerouslySetInnerHTML={{
                     __html: siteConfig('STARTER_TEAM_TEXT_2', null, CONFIG)
                   }}
-                  className='text-base text-body-color dark:text-dark-6'></p>
+                  className='text-base text-white dark:text-dark-6'></p>
               </div>
             </div>
           </div>
