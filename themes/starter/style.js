@@ -71,7 +71,7 @@ const Style = () => {
   
   #theme-starter .sticky #navbarCollapse li .ud-menu-scroll.active{
     --tw-text-opacity: 1;
-    color: rgb(55 88 249 / var(--tw-text-opacity));
+    color: rgb(231 25 38 / var(--tw-text-opacity));
     opacity: 1;
   }
   
