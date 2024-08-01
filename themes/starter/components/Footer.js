@@ -25,7 +25,7 @@ export const Footer = props => {
                 <a className='-mx-4 mb-6 inline-block max-w-[160px]'>
                   <Logo white={true} />
                 </a>
-                <p className='mb-8 max-w-[270px] text-base text-gray-7'>
+                <p className='mb-8 max-w-[270px] text-base text-black'>
                   {siteConfig('STARTER_FOOTER_SLOGAN', null, CONFIG)}
                 </p>
                 <div className='-mx-3 flex items-center'>
@@ -43,7 +43,7 @@ export const Footer = props => {
                   key={index}
                   className='w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12'>
                   <div className='mb-10 w-full'>
-                    <h4 className='mb-9 text-lg font-semibold text-white'>
+                    <h4 className='mb-9 text-lg font-semibold text-black'>
                       {item.TITLE}
                     </h4>
                     <ul>
@@ -52,7 +52,7 @@ export const Footer = props => {
                           <li key={i}>
                             <a
                               href={l.URL}
-                              className='mb-3 inline-block text-base text-gray-7 hover:text-primary'>
+                              className='mb-3 inline-block text-base text-black hover:text-[#E71926]'>
                               {l.TITLE}
                             </a>
                           </li>
@@ -107,7 +107,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+                      className='px-3 text-base text-black hover:text-[#E71926] hover:underline'>
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_POLICY_TEXT',
                         null,
@@ -120,7 +120,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+                      className='px-3 text-base text-black hover:text-[#E71926] hover:underline'>
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT',
                         null,
@@ -133,7 +133,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+                      className='px-3 text-base text-black hover:text-[#E71926] hover:underline'>
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT',
                         null,
@@ -145,7 +145,7 @@ export const Footer = props => {
               </div>
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
                 <div className='my-1 flex justify-center md:justify-end'>
-                  <p className='text-base text-gray-7'>
+                  <p className='text-base text-black'>
                     鲁ICP备11007237号-1
                   </p>
                 </div>
