@@ -25,9 +25,11 @@ export const Footer = props => {
                 <a className='-mx-4 mb-6 inline-block max-w-[160px]'>
                   <Logo white={true} />
                 </a>
-                <p className='mb-8 max-w-[270px] text-base text-black'>
-                  {siteConfig('STARTER_FOOTER_SLOGAN', null, CONFIG)}
-                </p>
+                  <p className='mb-8 max-w-[270px] text-base text-black'
+                     dangerouslySetInnerHTML={{
+                       __html: siteConfig('STARTER_FOOTER_SLOGAN', null, CONFIG)
+                     }}>
+                  </p>
                 <div className='-mx-3 flex items-center'>
                   <div className='mx-3 hidden'>
                     <SocialButton />
