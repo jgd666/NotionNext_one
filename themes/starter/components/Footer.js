@@ -69,13 +69,13 @@ export const Footer = props => {
             {/* 页脚右侧最新博文 */}
             <div className='w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12'>
               <div className='mb-10 w-full'>
-                <h4 className='mb-9 text-lg font-semibold text-white'>
+                <h4 className='mb-9 text-lg font-semibold text-black'>
                   {siteConfig('STARTER_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
                 </h4>
                 {/* 展示两条最新博客文章 */}
                 <div className='flex flex-col gap-8'>
                   <div
-                    className="mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px]"
+                    className="mb-4 sm:mb-8 sm:h-[100px] md:h-[150px] lg:h-[180px] xl:h-[200px]"
                   >
                     <img
                       src={siteConfig('STARTER_WX', null, CONFIG)}
