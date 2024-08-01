@@ -287,7 +287,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '达给世界。 <br /> <br /> 功能强大',
+  STARTER_FOOTER_SLOGAN: '官方唯一加盟热线 <br /> 400-002-1234',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
