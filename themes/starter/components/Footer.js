@@ -74,21 +74,15 @@ export const Footer = props => {
                 </h4>
                 {/* 展示两条最新博客文章 */}
                 <div className='flex flex-col gap-8'>
-                  {latestPosts?.map((item, index) => {
-                    return (
-                      <a
-                        key={index}
-                        href={item?.href}
-                        className='group flex items-center gap-[22px]'>
-                        <div className='overflow-hidden rounded w-20 h-12'>
-                          <img src={item.pageCoverThumbnail} alt={item.title} />
-                        </div>
-                        <span className='line-clamp-2 max-w-[180px] text-base text-gray-7 group-hover:text-white'>
-                          {item.title}
-                        </span>
-                      </a>
-                    )
-                  })}
+                  <div
+                    className="mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px]"
+                  >
+                    <img
+                      src={siteConfig('STARTER_WX', null, CONFIG)}
+                      alt="about image"
+                      className="h-full w-full object-cover object-center"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
