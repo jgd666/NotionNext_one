@@ -67,7 +67,7 @@ export const Footer = props => {
             })}
 
             {/* 页脚右侧最新博文 */}
-            <div className='w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12'>
+            <div className='w-full px-2 md:w-2/3 lg:w-6/12 xl:w-3/12'>
               <div className='mb-10 w-full bg-white p-4 flex flex-col items-center rounded-lg'>
                 <h4 className='mb-3 text-lg font-semibold text-black'>
                   {siteConfig('STARTER_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
