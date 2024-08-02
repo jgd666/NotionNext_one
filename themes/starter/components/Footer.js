@@ -72,7 +72,7 @@ export const Footer = props => {
                 <h4 className='mb-5 text-lg font-semibold text-black'>
                   {siteConfig('STARTER_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
                 </h4>
-                <p className='text-base text-black text-center mb-5'>
+                <p className='text-sm text-black text-center mb-5'>
                   扫描二维码添加客服微信在线咨询。
                 </p>
                 {/* 展示两条最新博客文章 */}
