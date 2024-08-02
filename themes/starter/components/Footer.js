@@ -68,11 +68,11 @@ export const Footer = props => {
 
             {/* 页脚右侧最新博文 */}
             <div className='w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12'>
-              <div className='mb-10 w-full flex flex-col items-center'>
-                <h4 className='mb-5 text-lg font-semibold text-black'>
+              <div className='mb-10 w-full bg-white border border-gray-300 p-4 flex flex-col items-center'>
+                <h4 className='mb-3 text-lg font-semibold text-black'>
                   {siteConfig('STARTER_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
                 </h4>
-                <p className='text-sm text-black text-center mb-5'>
+                <p className='text-sm text-black text-center mb-3'>
                   扫描二维码添加客服微信在线咨询。
                 </p>
                 {/* 展示两条最新博客文章 */}
