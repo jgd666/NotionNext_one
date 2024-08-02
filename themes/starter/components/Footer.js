@@ -72,6 +72,9 @@ export const Footer = props => {
                 <h4 className='mb-9 text-lg font-semibold text-black'>
                   {siteConfig('STARTER_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
                 </h4>
+                <p className='text-base text-gray-700'>
+                  扫描二维码添加客服微信在线咨询。
+                </p>
                 {/* 展示两条最新博客文章 */}
                 <div className='flex flex-col gap-8'>
                   <div
