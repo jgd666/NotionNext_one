@@ -75,12 +75,12 @@ export const Footer = props => {
                 {/* 展示两条最新博客文章 */}
                 <div className='flex flex-col gap-8'>
                   <div
-                    className="mb-4 sm:mb-8 sm:h-[100px] md:h-[100px] lg:h-[100px] xl:h-[100px]"
+                    className="mb-4 sm:mb-8 h-[100px] w-[100px]"
                   >
                     <img
                       src={siteConfig('STARTER_WX', null, CONFIG)}
                       alt="about image"
-                      className="h-full w-full object-cover object-center"
+                      className="h-[100px] w-[100px] object-cover object-center"
                     />
                   </div>
                 </div>
