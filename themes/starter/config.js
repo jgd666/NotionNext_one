@@ -33,7 +33,7 @@ const CONFIG = {
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '', // 特性
-  STARTER_FEATURE_TEXT_1: '三位一体产业链', // 特性
+  STARTER_FEATURE_TEXT_1: '三位一体产业链666', // 特性
   STARTER_FEATURE_TEXT_2: '', // 特性
 
   STARTER_FEATURE_1_TITLE_1: '研发生产', // 特性1
