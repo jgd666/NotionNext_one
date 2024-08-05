@@ -376,7 +376,7 @@ function TodayCard({ cRef, siteInfo }) {
           <div
             onClick={handleClickShowMore}
             className={`'${isCoverUp ? '' : 'hidden pointer-events-none'} z-10 group flex items-center px-3 h-10 justify-center  rounded-3xl
-            glassmorphism transition-colors duration-100 `}>
+            glassmorphism transition-colors duration-100 hidden `}>
             <PlusSmall
               className={
                 'group-hover:rotate-180 duration-500 transition-all w-6 h-6 mr-2 bg-white rounded-full stroke-black'
