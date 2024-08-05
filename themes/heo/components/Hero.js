@@ -359,7 +359,7 @@ function TodayCard({ cRef, siteInfo }) {
           isCoverUp
             ? 'opacity-100 cursor-pointer'
             : 'opacity-0 transform scale-110 pointer-events-none'
-        } shadow transition-all duration-200 today-card h-full bg-black rounded-xl relative overflow-hidden flex items-end`}>
+        } shadow transition-all duration-200 today-card h-full bg-white rounded-xl relative overflow-hidden flex items-end`}>
         {/* 卡片文字信息 */}
         <div
           id='today-card-info'
