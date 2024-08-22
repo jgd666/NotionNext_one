@@ -20,6 +20,9 @@ const Footer = ({ title }) => {
       {/* 社交按钮 */}
           <div className='w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12'>
               <div className='mb-10 w-full bg-white p-2 flex flex-col items-center rounded-lg hover:scale-110 ease-in-out'>
+                <h4 className='mb-3 text-lg font-semibold text-black mt-4'>
+                  {siteConfig('HEO_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
+                </h4>
                 <p className='text-sm text-black text-center mb-3'>
                   扫描二维码添加客服微信在线咨询。
                 </p>
