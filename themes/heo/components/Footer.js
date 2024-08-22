@@ -16,29 +16,7 @@ const Footer = ({ title }) => {
         className='h-32 bg-gradient-to-b from-[#f7f9fe] to-white  dark:bg-[#1a191d] dark:from-inherit dark:to-inherit'
       />
 
-      {/* 社交按钮 */}
-          <div className='w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12'>
-              <div className='mb-10 w-full bg-white p-2 flex flex-col items-center rounded-lg hover:scale-110 ease-in-out'>
-                <h4 className='mb-3 text-lg font-semibold text-black mt-4'>
-                  {siteConfig('STARTER_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
-                </h4>
-                <p className='text-sm text-black text-center mb-3'>
-                  扫描二维码添加客服微信在线咨询。
-                </p>
-                {/* 展示两条最新博客文章 */}
-                <div className='flex flex-col gap-8 items-center'>
-                  <div
-                    className="mb-4 sm:mb-8 h-[100px] w-[100px] flex justify-center items-center"
-                  >
-                    <img
-                      src={siteConfig('STARTER_WX', null, CONFIG)}
-                      alt="about image"
-                      className="h-[100px] w-[100px] object-cover object-center"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+
 
       <br />
 
