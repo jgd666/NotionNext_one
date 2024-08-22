@@ -21,7 +21,8 @@ const CONFIG = {
   HEO_HERO_TITLE_4: '',
   HEO_HERO_TITLE_5: '',
   HEO_HERO_TITLE_LINK: 'https://172.lot-ml.com/ProductEn/Shop/7e60d24e36fac7d0',
-  HEO_WX_WX: '/images/starter/logo/wx1.png', 
+  HEO_WX: '/images/starter/logo/wx1.png', 
+  HEO_FOOTER_BLOG_LATEST_TITLE: '加盟申请',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
