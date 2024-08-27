@@ -6,7 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '欢迎来到我的博客', url: 'https://www.xh1024.cn' },
-    { title: '大流量卡免费领取', url: 'https://172.lot-ml.com/ProductEn/Shop/7e60d24e36fac7d0' }
+    { title: '大流量卡免费领取', url: 'https://172.lot-ml.com/ProductEn/Index/7e60d24e36fac7d0' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -20,9 +20,9 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'XH1024.CN',
   HEO_HERO_TITLE_4: '',
   HEO_HERO_TITLE_5: '',
-  HEO_HERO_TITLE_LINK: 'https://172.lot-ml.com/ProductEn/Shop/7e60d24e36fac7d0',
+  HEO_HERO_TITLE_LINK: 'https://172.lot-ml.com/ProductEn/Index/7e60d24e36fac7d0',
   HEO_WX: '/images/starter/logo/wx1.png', 
-  HEO_FOOTER_BLOG_LATEST_TITLE: '加盟申请',
+  HEO_FOOTER_BLOG_LATEST_TITLE: '联系我们',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
