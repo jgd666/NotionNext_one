@@ -24,7 +24,7 @@ const Footer = ({ title }) => {
                   {siteConfig('HEO_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
                 </h4>
                 <p className='text-sm text-black text-center mb-3'>
-                  扫描二维码添加客服微信在线咨询。
+                  扫描二维码添加我的个人微信，实时解答各种疑问。
                 </p>
                 {/* 展示两条最新博客文章 */}
                 <div className='flex flex-col gap-8 items-center'>
