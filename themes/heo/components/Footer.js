@@ -18,7 +18,7 @@ const Footer = ({ title }) => {
       />
 
       {/* 社交按钮 */}
-          <div className='mx-auto w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12'>
+          <div className='mx-auto w-full px-4 md:w-2/3 lg:w-6/12 xl:w-6/12'>
               <div className='mb-10 w-full bg-[#f1f3f7] p-2 flex flex-col items-center rounded-lg hover:scale-110 ease-in-out'>
                 <h4 className='mb-3 text-lg font-semibold text-black mt-4'>
                   {siteConfig('HEO_FOOTER_BLOG_LATEST_TITLE', null, CONFIG)}
@@ -26,14 +26,22 @@ const Footer = ({ title }) => {
                 <p className='text-sm text-black text-center mb-3'>
                   扫描二维码添加我的个人微信，实时解答各种疑问。
                 </p>
-                {/* 展示两条最新博客文章 */}
-                <div className='flex flex-col gap-8 items-center'>
+                <div className='flex flex-row gap-8 items-center'>
                   <div
                     className="mb-4 sm:mb-8 h-[100px] w-[100px] flex justify-center items-center"
                   >
                     <img
                       src={siteConfig('HEO_WX', null, CONFIG)}
                       alt="about image"
+                      className="h-[100px] w-[100px] object-cover object-center"
+                    />
+                  </div>
+                  <div
+                    className="mb-4 sm:mb-8 h-[100px] w-[100px] flex justify-center items-center"
+                  >
+                    <img
+                      src={siteConfig('HEO_WX', null, CONFIG)}
+                      alt="about image2"
                       className="h-[100px] w-[100px] object-cover object-center"
                     />
                   </div>
