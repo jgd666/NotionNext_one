@@ -93,4 +93,3 @@ export const Hero = () => {
     </div>
     {/* <!-- ====== Hero Section End --> */}
     </>
-}
