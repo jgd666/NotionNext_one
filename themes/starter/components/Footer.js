@@ -76,7 +76,17 @@ export const Footer = props => {
                   扫描二维码添加客服微信在线咨询。
                 </p>
                 {/* 展示两条最新博客文章 */}
-
+                <div className='flex flex-col gap-8 items-center'>
+                  <div
+                    className="mb-4 sm:mb-8 h-[100px] w-[100px] flex justify-center items-center"
+                  >
+                    <img
+                      src={siteConfig('STARTER_WX', null, CONFIG)}
+                      alt="about image"
+                      className="h-[100px] w-[100px] object-cover object-center"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
